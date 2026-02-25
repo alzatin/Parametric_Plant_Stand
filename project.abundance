@@ -11,8 +11,7 @@
     },
     {
       "name": "Height",
-      "ioValue": 400,
-      "currentEquation": "400"
+      "ioValue": 400
     },
     {
       "name": "Pot_Diameter",
@@ -56,8 +55,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.5443121693121693,
-      "y": 0.5555555555555556,
+      "x": 0.5071090047393365,
+      "y": 0.3283582089552239,
       "uniqueID": "id-107693",
       "ioValues": [
         {
@@ -87,8 +86,8 @@
     },
     {
       "atomType": "CutLayout",
-      "x": 0.6236772486772487,
-      "y": 0.775,
+      "x": 0.6276235612728503,
+      "y": 0.8537313432835821,
       "uniqueID": "id-108073",
       "name": "Cut Layout",
       "ioValues": [
@@ -166,8 +165,7 @@
         },
         {
           "name": "Cut Through",
-          "ioValue": 2,
-          "currentEquation": "2"
+          "ioValue": 2
         },
         {
           "name": "Part Name",
@@ -3004,6 +3002,63 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "CutLayout",
+      "x": 0.6513202437373053,
+      "y": 0.5074626865671642,
+      "uniqueID": "id-108462",
+      "name": "Cut Layout",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Sheet Width",
+          "ioValue": 2438
+        },
+        {
+          "name": "Sheet Height",
+          "ioValue": 1219
+        },
+        {
+          "name": "Part Padding",
+          "ioValue": 10
+        },
+        {
+          "name": "Orientations",
+          "ioValue": 12
+        }
+      ],
+      "placements": [
+        [
+          {
+            "id": 1,
+            "rotate": 90,
+            "translate": {
+              "x": 78.5132222,
+              "y": 227.7
+            }
+          },
+          {
+            "id": 2,
+            "rotate": 240,
+            "translate": {
+              "x": 153.61098556556632,
+              "y": 356.1038479337423
+            }
+          },
+          {
+            "id": 0,
+            "rotate": 180,
+            "translate": {
+              "x": 161.85649869999997,
+              "y": 639.7792489999999
+            }
+          }
+        ]
+      ]
     }
   ],
   "allConnectors": [
@@ -3041,6 +3096,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-108070",
       "ap2ID": "id-108073"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-108070",
+      "ap2ID": "id-108462"
     },
     {
       "ap2Name": "Geometry",
