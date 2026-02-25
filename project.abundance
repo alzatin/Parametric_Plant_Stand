@@ -7,7 +7,7 @@
   "ioValues": [
     {
       "name": "Wood_Thickness",
-      "ioValue": 12
+      "ioValue": 13
     },
     {
       "name": "Height",
@@ -34,29 +34,29 @@
     },
     {
       "atomType": "Input",
-      "x": 0.025384615384615384,
-      "y": 0.15384615384615385,
+      "x": 0.021449999999999997,
+      "y": 0.13,
       "uniqueID": "id-107642",
       "name": "Wood_Thickness"
     },
     {
       "atomType": "Input",
-      "x": 0.025384615384615384,
-      "y": 0.24615384615384617,
+      "x": 0.021449999999999997,
+      "y": 0.20800000000000002,
       "uniqueID": "id-107649",
       "name": "Height"
     },
     {
       "atomType": "Input",
-      "x": 0.025384615384615384,
-      "y": 0.3384615384615385,
+      "x": 0.021449999999999997,
+      "y": 0.28600000000000003,
       "uniqueID": "id-107652",
       "name": "Pot_Diameter"
     },
     {
       "atomType": "Assembly",
-      "x": 0.5071090047393365,
-      "y": 0.3283582089552239,
+      "x": 0.47799593771157756,
+      "y": 0.3522388059701493,
       "uniqueID": "id-107693",
       "ioValues": [
         {
@@ -71,8 +71,8 @@
     },
     {
       "atomType": "ExtractTag",
-      "x": 0.4603174603174603,
-      "y": 0.7972222222222223,
+      "x": 0.5206499661475965,
+      "y": 0.6388059701492538,
       "uniqueID": "id-108070",
       "name": "Extract Tag",
       "ioValues": [
@@ -86,8 +86,8 @@
     },
     {
       "atomType": "CutLayout",
-      "x": 0.6276235612728503,
-      "y": 0.8537313432835821,
+      "x": 0.6188219363574814,
+      "y": 0.7970149253731343,
       "uniqueID": "id-108073",
       "name": "Cut Layout",
       "ioValues": [
@@ -143,8 +143,8 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.8458994708994709,
-      "y": 0.7916666666666667,
+      "x": 0.8429248476641841,
+      "y": 0.7880597014925372,
       "uniqueID": "id-108111",
       "ioValues": [
         {
@@ -177,9 +177,66 @@
       "sortDirection": "Top"
     },
     {
+      "atomType": "CutLayout",
+      "x": 0.6533513879485443,
+      "y": 0.4656716417910448,
+      "uniqueID": "id-108462",
+      "name": "Cut Layout",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Sheet Width",
+          "ioValue": 2438
+        },
+        {
+          "name": "Sheet Height",
+          "ioValue": 1219
+        },
+        {
+          "name": "Part Padding",
+          "ioValue": 10
+        },
+        {
+          "name": "Orientations",
+          "ioValue": 15
+        }
+      ],
+      "placements": [
+        [
+          {
+            "id": 2,
+            "rotate": 24,
+            "translate": {
+              "x": 98.74776437203452,
+              "y": 237.74298933620605
+            }
+          },
+          {
+            "id": 1,
+            "rotate": 96,
+            "translate": {
+              "x": 174.87393508249517,
+              "y": 287.5463137383525
+            }
+          },
+          {
+            "id": 0,
+            "rotate": 120,
+            "translate": {
+              "x": 166.28381805286855,
+              "y": 718.3330260377526
+            }
+          }
+        ]
+      ]
+    },
+    {
       "atomType": "GitHubMolecule",
-      "x": 0.38425925925925924,
-      "y": 0.4,
+      "x": 0.3893026404874746,
+      "y": 0.5373134328358209,
       "uniqueID": "id-107816",
       "name": "Above",
       "ioValues": [
@@ -208,16 +265,16 @@
         },
         {
           "atomType": "Input",
-          "x": 0.025384615384615384,
-          "y": 0.15384615384615385,
+          "x": 0.021449999999999997,
+          "y": 0.13,
           "uniqueID": "id-107811",
           "name": "B",
           "type": "geometry"
         },
         {
           "atomType": "Input",
-          "x": 0.025384615384615384,
-          "y": 0.24615384615384617,
+          "x": 0.021449999999999997,
+          "y": 0.20800000000000002,
           "uniqueID": "id-107812",
           "name": "A",
           "type": "geometry"
@@ -323,8 +380,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.7493386243386244,
-      "y": 0.7972222222222223,
+      "x": 0.7494922139471902,
+      "y": 0.8119402985074626,
       "uniqueID": "id-108091",
       "name": "Center_XY",
       "ioValues": [
@@ -419,8 +476,8 @@
         },
         {
           "atomType": "Input",
-          "x": 0.025384615384615384,
-          "y": 0.15384615384615385,
+          "x": 0.021449999999999997,
+          "y": 0.13,
           "uniqueID": "id-108090",
           "name": "Geometry",
           "type": "geometry"
@@ -476,8 +533,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.2804232804232804,
-      "y": 0.25277777777777777,
+      "x": 0.25660121868652674,
+      "y": 0.3940298507462686,
       "uniqueID": "id-107539",
       "name": "Pot and Saucer",
       "ioValues": [
@@ -518,8 +575,8 @@
         },
         {
           "atomType": "Input",
-          "x": 0.025384615384615384,
-          "y": 0.15384615384615385,
+          "x": 0.021449999999999997,
+          "y": 0.13,
           "uniqueID": "id-107664",
           "name": "Pot_Diameter",
           "type": "number"
@@ -648,8 +705,8 @@
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.15384615384615385,
+              "x": 0.021449999999999997,
+              "y": 0.13,
               "uniqueID": "id-107670",
               "name": "Pot_Diameter",
               "type": "number"
@@ -903,8 +960,8 @@
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.15384615384615385,
+              "x": 0.021449999999999997,
+              "y": 0.13,
               "uniqueID": "id-107667",
               "name": "Pot_Diameter",
               "type": "number"
@@ -1023,16 +1080,16 @@
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.15384615384615385,
+              "x": 0.021449999999999997,
+              "y": 0.13,
               "uniqueID": "id-107610",
               "name": "B",
               "type": "geometry"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.24615384615384617,
+              "x": 0.021449999999999997,
+              "y": 0.20800000000000002,
               "uniqueID": "id-107611",
               "name": "A",
               "type": "geometry"
@@ -1193,7 +1250,7 @@
         },
         {
           "name": "Wood_Thickness",
-          "ioValue": 12
+          "ioValue": 13
         }
       ],
       "topLevel": false,
@@ -1212,24 +1269,24 @@
         },
         {
           "atomType": "Input",
-          "x": 0.025384615384615384,
-          "y": 0.15384615384615385,
+          "x": 0.021449999999999997,
+          "y": 0.13,
           "uniqueID": "id-107655",
           "name": "Height",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.025384615384615384,
-          "y": 0.24615384615384617,
+          "x": 0.021449999999999997,
+          "y": 0.20800000000000002,
           "uniqueID": "id-107658",
           "name": "Pot_Diameter",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.025384615384615384,
-          "y": 0.3384615384615385,
+          "x": 0.021449999999999997,
+          "y": 0.28600000000000003,
           "uniqueID": "id-107661",
           "name": "Wood_Thickness",
           "type": "number"
@@ -1254,7 +1311,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": -6
+              "ioValue": -6.5
             }
           ]
         },
@@ -1267,7 +1324,7 @@
           "ioValues": [
             {
               "name": "T",
-              "ioValue": 12
+              "ioValue": 13
             }
           ],
           "currentEquation": "T/-2"
@@ -1533,7 +1590,7 @@
             },
             {
               "name": "Wood_Thickness",
-              "ioValue": 12
+              "ioValue": 13
             },
             {
               "name": "Height",
@@ -1556,24 +1613,24 @@
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.15384615384615385,
+              "x": 0.021449999999999997,
+              "y": 0.13,
               "uniqueID": "id-107705",
               "name": "Pot_Diameter",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.24615384615384617,
+              "x": 0.021449999999999997,
+              "y": 0.20800000000000002,
               "uniqueID": "id-107708",
               "name": "Wood_Thickness",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.3384615384615385,
+              "x": 0.021449999999999997,
+              "y": 0.28600000000000003,
               "uniqueID": "id-107711",
               "name": "Height",
               "type": "number"
@@ -2060,7 +2117,7 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 12
+                  "ioValue": 13
                 }
               ]
             },
@@ -2377,7 +2434,7 @@
             },
             {
               "name": "Wood_Thickness",
-              "ioValue": 12
+              "ioValue": 13
             }
           ],
           "topLevel": false,
@@ -2396,8 +2453,8 @@
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.15384615384615385,
+              "x": 0.021449999999999997,
+              "y": 0.13,
               "uniqueID": "id-107922",
               "name": "Height",
               "type": "number"
@@ -2481,7 +2538,7 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": -62
+                  "ioValue": -63
                 },
                 {
                   "name": "zDist",
@@ -2523,8 +2580,8 @@
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.24615384615384617,
+              "x": 0.021449999999999997,
+              "y": 0.20800000000000002,
               "uniqueID": "id-107999",
               "name": "Wood_Thickness",
               "type": "number"
@@ -2542,7 +2599,7 @@
                 },
                 {
                   "name": "T",
-                  "ioValue": 12
+                  "ioValue": 13
                 }
               ],
               "currentEquation": "-1*F/2-T"
@@ -2702,24 +2759,24 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.025384615384615384,
-                  "y": 0.15384615384615385,
+                  "x": 0.021449999999999997,
+                  "y": 0.13,
                   "uniqueID": "id-107952",
                   "name": "Angle",
                   "type": "number"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.025384615384615384,
-                  "y": 0.24615384615384617,
+                  "x": 0.021449999999999997,
+                  "y": 0.20800000000000002,
                   "uniqueID": "id-107953",
                   "name": "Height",
                   "type": "number"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.025384615384615384,
-                  "y": 0.3384615384615385,
+                  "x": 0.021449999999999997,
+                  "y": 0.28600000000000003,
                   "uniqueID": "id-107954",
                   "name": "Thickness",
                   "type": "number"
@@ -3002,63 +3059,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "CutLayout",
-      "x": 0.6513202437373053,
-      "y": 0.5074626865671642,
-      "uniqueID": "id-108462",
-      "name": "Cut Layout",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "Sheet Width",
-          "ioValue": 2438
-        },
-        {
-          "name": "Sheet Height",
-          "ioValue": 1219
-        },
-        {
-          "name": "Part Padding",
-          "ioValue": 10
-        },
-        {
-          "name": "Orientations",
-          "ioValue": 12
-        }
-      ],
-      "placements": [
-        [
-          {
-            "id": 1,
-            "rotate": 90,
-            "translate": {
-              "x": 78.5132222,
-              "y": 227.7
-            }
-          },
-          {
-            "id": 2,
-            "rotate": 240,
-            "translate": {
-              "x": 153.61098556556632,
-              "y": 356.1038479337423
-            }
-          },
-          {
-            "id": 0,
-            "rotate": 180,
-            "translate": {
-              "x": 161.85649869999997,
-              "y": 639.7792489999999
-            }
-          }
-        ]
-      ]
     }
   ],
   "allConnectors": [
