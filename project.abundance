@@ -201,8 +201,7 @@
         },
         {
           "name": "Orientations",
-          "ioValue": 30,
-          "currentEquation": "30"
+          "ioValue": 30
         }
       ],
       "placements": [
