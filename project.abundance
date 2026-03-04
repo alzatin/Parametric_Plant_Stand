@@ -1716,11 +1716,57 @@
                 },
                 {
                   "name": "Shape 1",
-                  "ioValue": null
+                  "ioValue": {
+                    "geometry": "move-move-circle-15-15-15-0-0-116.66666666666667-0",
+                    "dimension": "2D",
+                    "tags": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "bom": []
+                  }
                 },
                 {
                   "name": "Shape 2",
-                  "ioValue": null
+                  "ioValue": {
+                    "geometry": "move-circle-15-15-15-0",
+                    "dimension": "2D",
+                    "tags": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "bom": []
+                  }
                 },
                 {
                   "name": "Shape 4",
@@ -1773,11 +1819,57 @@
                 },
                 {
                   "name": "Shape 1",
-                  "ioValue": null
+                  "ioValue": {
+                    "geometry": "move-circle-15-15-15-0",
+                    "dimension": "2D",
+                    "tags": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "bom": []
+                  }
                 },
                 {
                   "name": "Shape 2",
-                  "ioValue": null
+                  "ioValue": {
+                    "geometry": "move-move-circle-15-15-15-0-400-0-0",
+                    "dimension": "2D",
+                    "tags": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "bom": []
+                  }
                 },
                 {
                   "name": "Shape 3",
@@ -1793,19 +1885,119 @@
               "ioValues": [
                 {
                   "name": "Shape 1",
-                  "ioValue": null
+                  "ioValue": {
+                    "geometry": "shrinkWrap-fuse-move-circle-15-15-15-0-move-move-circle-15-15-15-0-400-0-0-50",
+                    "dimension": "2D",
+                    "tags": [],
+                    "color": "#aad7f2",
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "bom": [
+                      []
+                    ]
+                  }
                 },
                 {
                   "name": "Shape 2",
-                  "ioValue": null
+                  "ioValue": {
+                    "geometry": "shrinkWrap-fuse-move-circle-15-15-15-0-move-move-circle-15-15-15-0-0-116.66666666666667-0-50",
+                    "dimension": "2D",
+                    "tags": [],
+                    "color": "#aad7f2",
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "bom": [
+                      []
+                    ]
+                  }
                 },
                 {
                   "name": "Shape 3",
-                  "ioValue": null
+                  "ioValue": {
+                    "geometry": "shrinkWrap-fuse-move-move-circle-15-15-15-0-400-0-0-move-move-move-circle-15-15-15-0-400-0-0-0-87.5-0-50",
+                    "dimension": "2D",
+                    "tags": [],
+                    "color": "#aad7f2",
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "bom": [
+                      []
+                    ]
+                  }
                 },
                 {
                   "name": "Shape 4",
-                  "ioValue": null
+                  "ioValue": {
+                    "geometry": "shrinkWrap-fuse-move-move-move-circle-15-15-15-0-400-0-0-0-87.5-0-move-move-move-move-circle-15-15-15-0-400-0-0-0-87.5-0-15-0-0-50",
+                    "dimension": "2D",
+                    "tags": [],
+                    "color": "#aad7f2",
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "bom": [
+                      []
+                    ]
+                  }
                 }
               ],
               "unionType": "Fusion"
@@ -1855,11 +2047,57 @@
                 },
                 {
                   "name": "Shape 1",
-                  "ioValue": null
+                  "ioValue": {
+                    "geometry": "move-move-move-circle-15-15-15-0-400-0-0-0-87.5-0",
+                    "dimension": "2D",
+                    "tags": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "bom": []
+                  }
                 },
                 {
                   "name": "Shape 2",
-                  "ioValue": null
+                  "ioValue": {
+                    "geometry": "move-move-circle-15-15-15-0-400-0-0",
+                    "dimension": "2D",
+                    "tags": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "bom": []
+                  }
                 },
                 {
                   "name": "Shape 3",
@@ -1985,11 +2223,57 @@
                 },
                 {
                   "name": "Shape 1",
-                  "ioValue": null
+                  "ioValue": {
+                    "geometry": "move-move-move-move-circle-15-15-15-0-400-0-0-0-87.5-0-15-0-0",
+                    "dimension": "2D",
+                    "tags": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "bom": []
+                  }
                 },
                 {
                   "name": "Shape 2",
-                  "ioValue": null
+                  "ioValue": {
+                    "geometry": "move-move-move-circle-15-15-15-0-400-0-0-0-87.5-0",
+                    "dimension": "2D",
+                    "tags": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "bom": []
+                  }
                 },
                 {
                   "name": "Shape 3",
